@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site1.master.cs" Inherits="GHCWebApp.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Gheetha's Homemade Curries</title>
+    <link rel="stylesheet" href="Styles/StyleSheet.css" type="text/css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="wrapper">
+            <div id="banner">
+                <asp:Image ID="Image1" runat="server" Height="240px" ImageUrl="~/Images/BannerGHC.png" Width="100%" />
+            </div>
+            <div id="navigation">
+                <ul id="nav">
+                    <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Pages/Menu.aspx">Menu</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Pages/About.aspx">About Us</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Pages/Contact.aspx">Contact Us</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Pages/Reports.aspx">Reports</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Pages/Management/Management.aspx">Management</asp:HyperLink></li>
+
+                    <li style="text-align: right; float: right;"><asp:HyperLink ID="HyperLink8" runat="server">Cart</asp:HyperLink></li>
+                    <li style="text-align: right; float: right;"><asp:HyperLink ID="HyperLink6" runat="server">Login</asp:HyperLink></li>                    
+                    <li style="text-align: right; float: right;"><asp:HyperLink ID="HyperLink7" runat="server">Register</asp:HyperLink></li>
+                </ul>
+
+            </div>
+            <div id="content"><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></div></div>
+
+
+
+
+
+        
+    </div>
+    </form>
+</body>
+</html>
+
