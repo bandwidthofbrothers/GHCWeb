@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace NewWebApp.Models
+namespace GHCWebApp.Models
 {
     public class ProductTypeModel
     {
