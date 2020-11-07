@@ -4,7 +4,7 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    The Menu <br /><br /><br />
+    <b style="font-size: large">The Menu</b> <br /><br /><br />
         
         <asp:Panel ID="pnlProducts" runat="server">
             <asp:Table ID="Table1" runat="server">
