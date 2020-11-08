@@ -10,7 +10,7 @@
 namespace GHCWebApp {
     
     
-    public partial class Login {
+    public partial class Reset_Password {
         
         /// <summary>
         /// ErrorMessage control.
@@ -19,16 +19,7 @@ namespace GHCWebApp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder ErrorMessage;
-        
-        /// <summary>
-        /// FailureText control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal FailureText;
+        protected global::System.Web.UI.WebControls.Literal ErrorMessage;
         
         /// <summary>
         /// Email control.
@@ -49,30 +40,12 @@ namespace GHCWebApp {
         protected global::System.Web.UI.WebControls.TextBox Password;
         
         /// <summary>
-        /// RememberMe control.
+        /// ConfirmPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox RememberMe;
-        
-        /// <summary>
-        /// RegisterHyperLink control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink RegisterHyperLink;
-        
-        /// <summary>
-        /// ForgotPasswordHyperLink control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink ForgotPasswordHyperLink;
+        protected global::System.Web.UI.WebControls.TextBox ConfirmPassword;
     }
 }

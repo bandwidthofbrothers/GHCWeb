@@ -27,7 +27,7 @@
 
                     <li style="text-align: right; float: right;"><asp:HyperLink ID="HyperLink8" runat="server">Cart</asp:HyperLink></li>
                     <li style="text-align: right; float: right;"><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Pages/Login.aspx">Login</asp:HyperLink></li>                    
-                    <li style="text-align: right; float: right;"><asp:HyperLink ID="HyperLink7" runat="server">Register</asp:HyperLink></li>
+                    <li style="text-align: right; float: right;"><asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Register.aspx">Register</asp:HyperLink></li>
                 </ul>
 
             </div>
