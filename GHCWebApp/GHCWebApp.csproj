@@ -123,6 +123,7 @@
   <ItemGroup>
     <Content Include="Images\AboutGheeta.jpg" />
     <Content Include="Images\BannerGHC.png" />
+    <Content Include="Pages\Login.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -163,6 +164,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Models\Cart.cs" />
     <Compile Include="Models\PoductTypeModel.cs" />
     <Compile Include="Models\ProductModel.cs" />
